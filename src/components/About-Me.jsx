@@ -1,14 +1,14 @@
 import React from 'react'
-import imgas from "../imgas.png"
+import imgas from "../My project.png"
 import mylogo from "../mylogo.svg"
 
 export default function About() {
   return (
    <section className=' grid grid-cols-2  w-full px-[4rem]'>
    <div className="  ">
-    <img className= " absolute w-[14rem] ml-[19rem] mt-[2rem] rounded-xl mt-35 -z-10" src={imgas} alt="" />
+    <img className= " absolute w-[14rem] ml-[17rem] mt-[2rem]  mt-35 -z-10" src={imgas} alt="" />
       <span className=' '><img className='
-       absolute w-[54rem] pr-10 -mt-[10rem] z-12' src={mylogo} alt="" /></span>
+       absolute w-[20rem] ml-[14rem] mt-[1rem] z-12 animate-spin' src={mylogo} alt="" /></span>
    </div>
    <div className="-gap[]"> 
    <h1 className='mt-[2rem] mb-3 text-4xl font-roboto-mono  '>About me</h1>
@@ -18,6 +18,9 @@ export default function About() {
 
 
 </p></div>
+<div>
+  <h1>Education</h1>
+</div>
    </section>
   )
 }
