@@ -9,6 +9,7 @@ module.exports = {
         "roboto-mono": ["Roboto Mono", "monospace"],
         "lobster-one": ["Lobster", "cursive"],
         "yeseva-one": ["Yeseva One", "cursive"],
+        'poppins':['Poppins','sans-serif']
       },
       screens: {
         "sm-s": "640px",
