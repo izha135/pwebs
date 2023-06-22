@@ -11,11 +11,11 @@ import linkedin from "../LinkedIN.svg";
 
 export default function Hero() {
   return (
-    <section className="xl-s:ml-[6rem] md-s:ml-[2rem] md-s:mr-[2rem] md-s:mt-[3rem]">
+    <section className="xl-s:ml-[6rem] md-s:ml-[2rem] md-s:mr-[2rem] md-s:mt-[3rem] md-s:object-center">
       <div className="grid xl-s:grid-cols-2 md-s:grid-cols-1 rounded-xl bg-orange-300 xl-s:px-[3rem]  flex-col-reverse lg-s:flex-row items-center xl-s:mr-[12rem] sm-s:mt-0 gap-12 mt:5 lg-s:mt-10 lg-s:ml-16 ">
         
         <div className="flex flex-col w-full gap-0 leading-3 items-center lg:items-start">
-          <h1 className="text-purple-500 inline-block font-lobster-one xl-s:ml-[1.8rem] drop-shadow-md mt-0 mr-auto px-12 sm-s:mt-10 sm-s:ml-16 text-7xl sm:text-6xl lg:text-left  mb-0">
+          <h1 className="text-purple-500 inline-block font-lobster-one xl-s:ml-[1.8rem] md-s:ml-[6rem] drop-shadow-md mt-0 mr-auto px-12 sm-s:mt-10 sm-s:ml-16 text-7xl sm:text-6xl lg:text-left  mb-0">
             Hi, nice to meet you 👋
           </h1>
           <br />
