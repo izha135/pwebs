@@ -4,11 +4,11 @@ import mylogo from "../mylogo.svg"
 
 export default function About() {
   return (
-   <section className=' grid xl-s:grid-cols-2 md-s:grid-cols-1  px-[4rem] py-[4rem]'>
+   <section className='container grid xl-s:grid-cols-2 md-s:grid-cols-1  px-[4rem] py-[4rem]'>
    <div className="  ">
-    <img className= " absolute w-[14rem] ml-[17rem] xl-s:mt-[5rem] md-s:mt-6" src={imgas} alt="" />
+    <img className= " absolute w-[14rem] ml-[10rem] xl-s:mt-[5rem] md-s:mt-6" src={imgas} alt="" />
       <span className=' '><img className='
-       relative w-[20rem] ml-[14rem] xl-s:mt-[5rem] md-s:mt-[2rem] -z-10 animate-spin' src={mylogo} alt="" /></span>
+       relative w-[20rem] ml-[7rem] xl-s:mt-[5rem] md-s:mt-[2rem] -z-10 animate-spin' src={mylogo} alt="" /></span>
    </div>
    <div className="flex-1"> 
    <h1 className='mt-[5rem] mb-3 text-4xl font-lobster-one text-purple-400 '>About me</h1>
@@ -18,7 +18,7 @@ export default function About() {
 
 
 </p></div>
-<button className='bg-purple-400 w-[7rem] xl-s:ml-[49rem] xl-s:mt-10 md-s:ml-[18rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded'>
+<button className='container bg-purple-400 w-[7rem] xl-s:ml-[49rem] xl-s:mt-10 md-s:ml-[18rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded'>
   <h1>Resume</h1>
 </button>
    </section>

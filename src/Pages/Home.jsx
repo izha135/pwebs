@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
 import About  from "../components/About-Me";
+import Projects from "../components/Projects";
 
 function Home() {
   return (
@@ -9,10 +10,11 @@ function Home() {
       <NavBar />
       <Hero />
       <About />
+      <Projects />
       {/* 
       
       <Experience />
-      <Projects />
+      
       <Contact /> */}
     </div>
   );
