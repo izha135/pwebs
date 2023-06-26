@@ -1,14 +1,12 @@
 import React from "react";
 
-
-
 function NavBar() {
   return (
     <header className=" bg-white flex sticky shadow-lg shadow-violet-500/40 top-0 rounded justify-between z-10">
       <div className=" flex flex-row  ">
         <button className="basis-5">
           <h1 className="text-4xl text-purple-400 font-lobster-one px-6 py-6 ">
-            Isha.Dev 
+            Isha.Dev
           </h1>
         </button>
       </div>
