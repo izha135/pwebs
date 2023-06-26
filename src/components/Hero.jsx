@@ -54,7 +54,7 @@ export default function Hero() {
           />
         </div>
 
-        <div className="inline-block md-s:ml-[3rem] px-1 xl-s:ml-[4rem] w-full gap-0 xl-s:-mt-[3rem] sm-s:mt-[1rem] mb-10">
+        <div className="inline-block md-s:ml-[3rem] px-1 xl-s:ml-[4rem] w-full gap-0 xl-s:-mt-[6rem] sm-s:mt-[1rem] mb-10">
         <ul className="flex align-center md-s:w-[38rem] px-30 gap-10 ">
           <li>
             <h1 className="font-poppins  md-s:text-3xl sm-s:text-2xl xl-s:text-2xl">Tech Stack |</h1>
@@ -98,6 +98,9 @@ export default function Hero() {
           </li>
           <li></li>
         </ul>
+        <button className=' bg-purple-400 w-[7rem] xl-s:-ml-[36rem] xl-s:mt-6 md-s:ml-[18rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded'>
+  <h1>Resume</h1>
+</button>
       </div>
       </div>
       
