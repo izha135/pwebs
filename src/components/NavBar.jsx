@@ -1,6 +1,12 @@
 import React from "react";
 
 function NavBar() {
+  const navLinks = document.querySelector(".nav-links");
+  function onToggleMenu(e) {
+    e.name = e.name === "menu" ? "close" : "menu";
+    navLinks.classList.toggle("top-[9%]");
+  }
+
   return (
     <header className=" bg-white flex sticky shadow-lg shadow-violet-500/40 top-0 rounded justify-between z-10">
       <div className=" flex flex-row  ">
@@ -9,6 +15,7 @@ function NavBar() {
             Isha.Dev
           </h1>
         </button>
+        <button></button>
       </div>
       <div className=" flex-row  ">
         <ul className="text-gray justify-between">
@@ -25,6 +32,14 @@ function NavBar() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+      </div>
+      <div class="flex items-center gap-6">
+        <i
+          icon="fa-solid fa-bars"
+          onclick="onToggleMenu(this)"
+          name="menu"
+          class="text-3xl cursor-pointer md:hidden"
+        ></i>
       </div>
     </header>
   );
