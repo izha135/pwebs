@@ -1,6 +1,6 @@
 import React from "react";
-import imgas from "../My project.png";
-import mylogo from "../mylogo.svg";
+import imgas from "../img/My project.png";
+import mylogo from "../img/mylogo.svg";
 
 export default function About() {
   return (
