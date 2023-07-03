@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  
+
   theme: {
     extend: {
       fontFamily: {
@@ -11,9 +10,10 @@ module.exports = {
         "roboto-mono": ["Roboto Mono", "monospace"],
         "lobster-one": ["Lobster", "cursive"],
         "yeseva-one": ["Yeseva One", "cursive"],
-        'poppins':['Poppins','sans-serif']
+        poppins: ["Poppins", "sans-serif"],
       },
       screens: {
+        "xs-s": "316px",
         "sm-s": "640px",
         // => @media (min-width: 640px) { ... }
 
@@ -30,9 +30,9 @@ module.exports = {
         // => @media (min-width: 1536px) { ... }
       },
       animation: {
-        'spin': 'spin 25s linear infinite',
-      }
+        spin: "spin 25s linear infinite",
+      },
     },
   },
-  plugins: ['macros'],
+  plugins: ["macros"],
 };

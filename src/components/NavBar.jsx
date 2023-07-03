@@ -11,7 +11,7 @@ function NavBar() {
           </button>
         </span>
       </div>
-      <div className=" justify-between  absolute right-0 mr-12">
+      <div className=" justify-between  absolute right-0 mr-12 ">
         <ul className="">
           <li className="inline-block hover:cursor-pointer px-6 py-6 font-roboto-mono 	text-purple-400 text-2xl">
             <Link

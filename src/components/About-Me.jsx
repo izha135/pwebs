@@ -5,26 +5,26 @@ import mylogo from "../img/mylogo.svg";
 export default function About() {
   return (
     <section
-      className="container place-content-center grid xl-s:grid-cols-2 md-s:grid-cols-1 mb-4 px-[4rem] py-[4rem]"
+      className="container place-content-center grid xl-s:grid-cols-2 md-s:grid-cols-1 mb-4 px-[4rem] py-[4rem] "
       id="about"
     >
       <div className="  ">
         <img
-          className=" absolute w-[14rem] ml-[10rem] xl-s:mt-[9rem] md-s:mt-7 md-s:ml-[13rem] "
+          className=" absolute xl-s:w-[14rem] ml-[10rem] xl-s:mt-[9rem] md-s:mt-7 md-s:ml-[13rem] xs-s:ml-1 xs-s:w-[10rem] xs-s:-mt-1"
           src={imgas}
           alt=""
         />
         <span className=" ">
           <img
             className="
-       relative w-[20rem] ml-[7rem] xl-s:mt-[8rem] md-s:mt-[1rem] md-s:ml-[10rem] -z-10 animate-spin"
+       relative xl-s:w-[20rem] ml-[7rem] xl-s:mt-[8rem] md-s:mt-[1rem] md-s:ml-[10rem] z-10 animate-spin xs-s:-ml-1  xs-s:w-[26rem]"
             src={mylogo}
             alt=""
           />
         </span>
       </div>
       <div className="flex-1">
-        <h1 className="mt-[5rem] mb-3 text-4xl font-lobster-one text-purple-400 ">
+        <h1 className="xl-s:mt-[5rem] mb-3 text-4xl font-lobster-one text-purple-400 xs-s:mt-3">
           About me
         </h1>
         <p className="xl-s:text-left md-s:text-center  font-poppins text-xl ">
