@@ -4,7 +4,10 @@ import mylogo from "../img/mylogo.svg";
 
 export default function About() {
   return (
-    <section className="container place-content-center grid xl-s:grid-cols-2 md-s:grid-cols-1 mb-4 px-[4rem] py-[4rem]">
+    <section
+      className="container place-content-center grid xl-s:grid-cols-2 md-s:grid-cols-1 mb-4 px-[4rem] py-[4rem]"
+      id="about"
+    >
       <div className="  ">
         <img
           className=" absolute w-[14rem] ml-[10rem] xl-s:mt-[9rem] md-s:mt-7 md-s:ml-[13rem] "

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function () {
   return (
-    <footer class="mt-auto py-5 text-center bg-gray-100 ">
+    <footer class="mt-auto py-5 text-center bg-gray-100 " id="contact">
       <div class="container">
         <h2 class="display-4 pb-3 font-lobster-one text-violet-400 text-center">
           Get In Touch!

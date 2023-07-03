@@ -18,7 +18,7 @@ export default function Projects() {
   //  request.send();
 
   return (
-    <section>
+    <section id="projects">
       <div className="container ">
         <h1 className="mt-[5rem] mb-6 text-4xl font-lobster-one text-purple-400">
           Projects
