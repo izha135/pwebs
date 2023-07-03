@@ -51,6 +51,18 @@ function NavBar() {
           </li>
           <li className="inline-block hover:cursor-pointer px-6 py-6 font-roboto-mono  text-purple-400 text-2xl">
             <Link
+              to="projects"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="inline-block hover:cursor-pointer px-6 py-6 font-roboto-mono  text-purple-400 text-2xl">
+            <Link
               to="contact"
               activeClass="active"
               spy={true}
