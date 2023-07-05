@@ -16,12 +16,9 @@ export default function Hero() {
     };
   };
   return (
-    <section
-      className="xl-s:ml-[7rem] md-s:ml-[2rem] md-s:mr-[2rem] md-s:mt-[3rem] object-center "
-      id="home"
-    >
-      <div className="container grid xl-s:grid-cols-2 md-s:grid-cols-1 rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40 xl-s:px-[3rem]  flex-col-reverse lg-s:flex-row items-center xl-s:mr-[12rem]  gap-12 mt:5 lg-s:mt-10 sm-s:mt-10 lg-s:ml-16 ">
-        <div className="flex flex-col w-full gap-0 leading-3 items-center lg:items-start">
+    <section className=" min-w-fit " id="home">
+      <div className=" grid xl-s:grid-cols-2 md-s:grid-cols-1 rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40 xl-s:px-[3rem]  flex-col-reverse lg-s:flex-row items-center xl-s:mr-[12rem]  gap-12 mt:5 lg-s:mt-10 sm-s:mt-10 lg-s:ml-16 ">
+        <div className=" flex-col w-full gap-0 leading-3 items-center lg:items-start">
           <h1 className="text-purple-500 inline-block font-lobster-one xl-s:ml-[1.8rem] lg-s:ml-[15rem] lg-s:text-5xl md-s:ml-[6rem] drop-shadow-xl  mr-auto px-12 sm-s:mt-10 sm-s:ml-16  xl-s:text-6xl sm-s:text-5xl   mb-0">
             Hi, nice to meet you 👋
           </h1>
