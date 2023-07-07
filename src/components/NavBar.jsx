@@ -3,29 +3,26 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg shadow-lg  rounded-md  sticky-top z-10 bg-white mb-10 shadow-violet-500/40 ">
-      <div class="container ">
+    <nav class="navbar navbar-expand-sm w-full shadow-sm sticky-top z-10 bg-white mb-10 shadow-violet-500/40 ">
+      <div class="container-fluid ">
         <span
           className="navbar-brand text-purple-400 text-4xl  "
           onClick={() => scroll.scrollToTop()}
         >
           <a className="  font-lobster-one  ">Isha.Dev</a>
         </span>
-        {/* <div className="dropdown d-none d-sm-block d-md-block">
+        <div className="dropdown dropleft gap-10">
           <button
-            className="btn btn-secondary dropdown-toggle "
+            className="btn btn-secondary dropdown-toggle d-lg-none inline-block"
             type="button"
-            id="dropdownMenuButton"
+            id="#navbarNav"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             <i className="fa-solid fa-bars"></i>
           </button>
-          <div
-            class="dropdown-menu d-none d-sm-block"
-            aria-labelledby="dropdownMenuButton"
-          >
+          <div class="dropdown-menu dropdown-menu-sm-right" id="navbarNav">
             <a class="dropdown-item" href="#">
               Action
             </a>
@@ -36,8 +33,9 @@ function NavBar() {
               Something else here
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
+
       <div className="d-none d-lg-block d-xl-block">
         <ul
           className="  inline-block justify-content-end d-flex flex-row"
