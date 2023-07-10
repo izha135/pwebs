@@ -8,6 +8,7 @@ import java from "../img/java.svg";
 import git from "../img/github.svg";
 import linkedin from "../img/LinkedIN.svg";
 import resume from "../Resume_Isha.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Hero() {
   const download = (props) => {
@@ -16,14 +17,14 @@ export default function Hero() {
     };
   };
   return (
-    <section className="container rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40">
-      <div className="row-cols-lg-2 row-cols-sm-1 ">
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-5">
+    <section className="jumbotron container rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40">
+      <div className="row">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4">
           <h1 className="text-purple-500 inline-block font-lobster-one text-4xl mb-2 align-top float-lg-left ">
             Hi, nice to meet you 👋
           </h1>
           <br />
-          <h3 className="text-gray-700 inline-block align-top font-poppins  text-left text-xl float-lg-left float-sm-center">
+          <h3 className="text-gray-700 lead inline-block align-top font-poppins  text-left text-xl float-lg-left float-sm-center">
             I'm Isha Chauhan, a passionate developer based in Albuqerque, New
             Mexico 📍
           </h3>
@@ -41,56 +42,63 @@ export default function Hero() {
               <img className="w-12 h-auto" src={linkedin} alt="linkedin icon" />
             </a>
           </button>
-          {/* bruh fix me  */}
-          <div className="row-sm-col-1">
-            <ul className="flex align-center md-s:w-[38rem]   ">
-              <li>
-                <h1 className="font-poppins  md-s:text-3xl sm-s:text-2xl xl-s:text-xl">
-                  Tech Stack |
-                </h1>
-                <hr class="w-40  md:mb-10 " />
-              </li>
 
-              <li className="">
-                <img
-                  className="w-10 ring-0 rounded shadow-lg h-auto"
-                  src={html}
-                  alt=""
-                />
-              </li>
-              <li>
-                <img
-                  className="w-10 ring-0 rounded shadow-lg h-auto"
-                  src={css}
-                  alt=""
-                />
-              </li>
-              <li>
-                <img
-                  className="w-10 ring-0 rounded shadow-lg h-auto"
-                  src={tailwind}
-                  alt=""
-                />
-              </li>
-              <li>
-                <img
-                  className="w-10 ring-0 rounded shadow-2xl h-auto"
-                  src={javascript}
-                  alt=""
-                />
-              </li>
-              <li>
-                <img
-                  className="w-10 ring-0 rounded shadow-lg h-auto"
-                  src={java}
-                  alt=""
-                />
-              </li>
-            </ul>
-          </div>
+          {/* bruh fix me  */}
+        </div>
+        <div className="col  ">
+          <img
+            className=" mx-auto d-block h-[24rem] rounded-circle scale-1.7   md-s:-ml-[4rem] max-w-md sm-s:mx-5 py-4"
+            src={me2}
+            alt="me"
+          />
+        </div>
+        <div class="w-100"></div>
+        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-2">
+          <ul className="d-flex flex-row gap-4 list-inline text-wrap">
+            <li>
+              <h1 className="font-poppins float-lg-left  float-sm-center  md-s:text-3xl sm-s:text-lg xl-s:text-xl">
+                Tech Stack
+              </h1>
+            </li>
+
+            <li className="">
+              <img
+                className="w-[45px] ring-0 rounded shadow-lg h-auto"
+                src={html}
+                alt=""
+              />
+            </li>
+            <li className="">
+              <img
+                className="w-[45px]  ring-0 rounded shadow-lg h-auto"
+                src={css}
+                alt=""
+              />
+            </li>
+            <li className="">
+              <img
+                className="w-[45px] ring-0 rounded shadow-lg h-auto"
+                src={tailwind}
+                alt=""
+              />
+            </li>
+            <li className="">
+              <img
+                className="w-[45px] ring-0 rounded shadow-2xl h-auto"
+                src={javascript}
+                alt=""
+              />
+            </li>
+            <li className="">
+              <img
+                className="w-[45px] ring-0 rounded shadow-lg h-auto"
+                src={java}
+                alt=""
+              />
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 "></div>
     </section>
 
     // <section className=" container-fluid " id="home">

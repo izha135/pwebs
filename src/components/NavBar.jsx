@@ -11,7 +11,7 @@ function NavBar() {
         >
           <a className="  font-lobster-one  ">Isha.Dev</a>
         </span>
-        <div className="dropdown dropleft gap-10">
+        <div className="dropdown show inline-block dropleft gap-10">
           <button
             className="btn btn-secondary dropdown-toggle d-lg-none inline-block"
             type="button"
@@ -22,16 +22,15 @@ function NavBar() {
           >
             <i className="fa-solid fa-bars"></i>
           </button>
-          <div class="dropdown-menu dropdown-menu-sm-right" id="navbarNav">
-            <a class="dropdown-item" href="#">
-              Action
-            </a>
-            <a class="dropdown-item" href="#">
-              Another action
-            </a>
-            <a class="dropdown-item" href="#">
-              Something else here
-            </a>
+          <div
+            class="dropdown-menu dropdown-menu-sm-left pull-right"
+            id="navbarNav"
+          >
+            <ul className="pull-left">
+              <li class="dropdown-item">Action</li>
+              <li class="dropdown-item">Action</li>
+              <li class="dropdown-item">Action</li>
+            </ul>
           </div>
         </div>
       </div>
