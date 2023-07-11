@@ -10,6 +10,8 @@ function Home() {
   return (
     <div>
       <NavBar />
+
+      <br />
       <Hero />
       <About />
       <Experience />

@@ -17,9 +17,9 @@ export default function Hero() {
     };
   };
   return (
-    <section className="jumbotron container rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40">
+    <section className="jumbotron  container  rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40">
       <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4 mx-auto">
           <h1 className="text-purple-500 inline-block font-lobster-one text-4xl mb-2 align-top float-lg-left ">
             Hi, nice to meet you 👋
           </h1>
@@ -45,7 +45,7 @@ export default function Hero() {
 
           {/* bruh fix me  */}
         </div>
-        <div className="col  ">
+        <div className="col ">
           <img
             className=" mx-auto d-block h-[24rem] rounded-circle scale-1.7   md-s:-ml-[4rem] max-w-md sm-s:mx-5 py-4"
             src={me2}
@@ -53,7 +53,7 @@ export default function Hero() {
           />
         </div>
         <div class="w-100"></div>
-        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-2">
+        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4">
           <ul className="d-flex flex-row gap-4 list-inline text-wrap">
             <li>
               <h1 className="font-poppins float-lg-left  float-sm-center  md-s:text-3xl sm-s:text-lg xl-s:text-xl">
@@ -97,6 +97,16 @@ export default function Hero() {
               />
             </li>
           </ul>
+          <a
+            href={resume}
+            target="_blank"
+            download="Resume_Isha"
+            rel="noreferrer"
+          >
+            <button className=" mt-4 bg-purple-500 w-[7rem] xl-s:-ml-[36rem] xl-s:mt-6 md-s:-ml-[6rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 mb-12 xl-s:px-4 sm-s:mt-10 rounded">
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </section>
@@ -189,16 +199,6 @@ export default function Hero() {
     //         <li></li>
     //       </ul>
 
-    //       <a
-    //         href={resume}
-    //         target="_blank"
-    //         download="Resume_Isha"
-    //         rel="noreferrer"
-    //       >
-    //         <button className=" bg-purple-500 w-[7rem] xl-s:-ml-[36rem] xl-s:mt-6 md-s:-ml-[6rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 mb-12 xl-s:px-4 sm-s:mt-10 rounded">
-    //           Resume
-    //         </button>
-    //       </a>
     //     </div>
     //   </div>
     // </section>
