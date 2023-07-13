@@ -23,11 +23,11 @@ export default function Hero() {
     >
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4 mx-auto">
-          <h1 className="text-purple-500 inline-block font-lobster-one text-4xl mt-[2em] mb-2 align-top float-lg-left ">
+          <h1 className="text-purple-500 inline-block font-lobster-one text-5xl mt-[2em] mb-2 align-top float-lg-left ">
             Hi, nice to meet you 👋
           </h1>
           <br />
-          <h3 className="text-gray-700 lead inline-block align-top font-poppins  text-left text-xl float-lg-left float-sm-center">
+          <h3 className="text-gray-700 lead inline-block align-top font-poppins  text-left text-2xl float-lg-left float-sm-center">
             I'm Isha Chauhan, a passionate developer based in Albuqerque, New
             Mexico 📍
           </h3>
