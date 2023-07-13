@@ -4,7 +4,7 @@ import mylogo from "../img/mylogo.svg";
 
 export default function About() {
   return (
-    <section className="container ">
+    <section className="container " id="about">
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4">
           <div className="  ">
@@ -29,7 +29,7 @@ export default function About() {
         </div>
         <div className="col mx-auto my-auto">
           <img
-            className=" absolute xl-s:w-[14rem]  xl-s:mt-[9rem] lg-s:ml-[15rem]  lg-s:w-[16rem] md-s:mt-[5rem] md-s:ml-[15rem] sm-s:ml-[12rem] sm-s:mt-[5rem] xs-s:ml-10 xs-s:w-[12rem] xs-s:mt-5"
+            className=" absolute xl-s:w-[14rem] xl-s:ml-[13em] xl-s:mt-[9rem] lg-s:ml-[15rem]  lg-s:w-[16rem] md-s:mt-[5rem] md-s:ml-[15rem] sm-s:ml-[12rem] sm-s:mt-[5rem] xs-s:ml-10 xs-s:w-[12rem] xs-s:mt-5"
             src={imgas}
             alt=""
           />

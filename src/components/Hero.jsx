@@ -17,10 +17,13 @@ export default function Hero() {
     };
   };
   return (
-    <section className="jumbotron  container  rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40">
+    <section
+      className="jumbotron  container  rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40"
+      id="home"
+    >
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4 mx-auto">
-          <h1 className="text-purple-500 inline-block font-lobster-one text-4xl mb-2 align-top float-lg-left ">
+          <h1 className="text-purple-500 inline-block font-lobster-one text-4xl mt-[2em] mb-2 align-top float-lg-left ">
             Hi, nice to meet you 👋
           </h1>
           <br />
@@ -47,7 +50,7 @@ export default function Hero() {
         </div>
         <div className="col ">
           <img
-            className=" mx-auto d-block h-[24rem] rounded-circle scale-1.7   md-s:-ml-[4rem] max-w-md sm-s:mx-5 py-4"
+            className=" mx-auto xl-s:mt-[2em] d-block h-[25rem] rounded-circle scale-1.7   md-s:-ml-[4rem] max-w-md sm-s:mx-5 py-4"
             src={me2}
             alt="me"
           />
@@ -63,35 +66,35 @@ export default function Hero() {
 
             <li className="">
               <img
-                className="w-[45px] ring-0 rounded shadow-lg h-auto"
+                className="w-[50px] ring-0 rounded shadow-lg h-auto"
                 src={html}
                 alt=""
               />
             </li>
             <li className="">
               <img
-                className="w-[45px]  ring-0 rounded shadow-lg h-auto"
+                className="w-[50px]  ring-0 rounded shadow-lg h-auto"
                 src={css}
                 alt=""
               />
             </li>
             <li className="">
               <img
-                className="w-[45px] ring-0 rounded shadow-lg h-auto"
+                className="w-[50px] ring-0 rounded shadow-lg h-auto"
                 src={tailwind}
                 alt=""
               />
             </li>
             <li className="">
               <img
-                className="w-[45px] ring-0 rounded shadow-2xl h-auto"
+                className="w-[50px] ring-0 rounded shadow-2xl h-auto"
                 src={javascript}
                 alt=""
               />
             </li>
             <li className="">
               <img
-                className="w-[45px] ring-0 rounded shadow-lg h-auto"
+                className="w-[50px] ring-0 rounded shadow-lg h-auto"
                 src={java}
                 alt=""
               />
@@ -103,7 +106,7 @@ export default function Hero() {
             download="Resume_Isha"
             rel="noreferrer"
           >
-            <button className=" mt-4 bg-purple-500 w-[7rem] xl-s:-ml-[36rem] xl-s:mt-6 md-s:-ml-[6rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 mb-12 xl-s:px-4 sm-s:mt-10 rounded">
+            <button className=" mt-4  bg-purple-500 w-[7rem] xl-s:-ml-[34rem] xl-s:mt-6 md-s:-ml-[6rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 mb-12 xl-s:px-4 sm-s:mt-10 rounded">
               Resume
             </button>
           </a>

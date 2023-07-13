@@ -6,12 +6,10 @@ function NavBar() {
     <nav class="navbar  navbar-expand-sm  shadow-sm fixed-top  bg-white mb-16 shadow-violet-500/40 ">
       <div class="container ">
         <span
-          className="navbar-brand mx-auto text-purple-400 text-4xl  "
+          className="navbar-brand float-sm-center float-md-left text-purple-400 text-4xl "
           onClick={() => scroll.scrollToTop()}
         >
-          <a className="  font-lobster-one text-sm-center text-xs-center ">
-            Isha.Dev
-          </a>
+          <a className="  font-lobster-one hover:cursor-pointer ">Isha.Dev</a>
         </span>
 
         <div className="d-none d-md-block d-lg-block d-xl-block">
@@ -36,7 +34,7 @@ function NavBar() {
               <Link
                 className="nav-link hover:cursor-pointer px-6 py-6 font-poppins   text-xl"
                 activeClass="active"
-                to="home"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -49,7 +47,7 @@ function NavBar() {
               <Link
                 className="nav-link hover:cursor-pointer px-6 py-6 font-poppins   text-xl"
                 activeClass="active"
-                to="home"
+                to="exp"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -62,7 +60,7 @@ function NavBar() {
               <Link
                 className="nav-link hover:cursor-pointer px-6 py-6 font-poppins   text-xl"
                 activeClass="active"
-                to="home"
+                to="projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -75,7 +73,7 @@ function NavBar() {
               <Link
                 className="nav-link hover:cursor-pointer px-6 py-6 font-poppins   text-xl"
                 activeClass="active"
-                to="home"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -89,6 +87,58 @@ function NavBar() {
       </div>
     </nav>
   );
+}
+{
+  /* <div className="btn-group show inline-block  ">
+          <button
+            className="btn btn-secondary dropdown-toggle d-md-none inline-block"
+            type="button"
+            id="#navbarNav"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i className="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="dropdown-menu dropdown-menu-md-left" id="navbarNav">
+            <button class="dropdown-item" type="button">
+              Action
+            </button>
+            <button class="dropdown-item" type="button">
+              Another action
+            </button>
+            <button class="dropdown-item" type="button">
+              Something else here
+            </button>
+          </div>
+        </div> */
+}
+
+{
+  /* <div class="btn-group d-md-none inline-block gap-3">
+          <Hamburger
+            className="btn btn-secondary dropdown-toggle d-md-none inline-block"
+            color="white"
+            toggled={isOpen}
+            size="28"
+            rounded
+            toggle={setOpen}
+          ></Hamburger>
+
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">
+              Action
+            </a>
+            <a class="dropdown-item" href="#">
+              Another action
+            </a>
+            <a class="dropdown-item" href="#">
+              Something else here
+            </a>
+          </div>
+        </div>
+           </div> */
 }
 
 export default NavBar;
