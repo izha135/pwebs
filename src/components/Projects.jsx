@@ -23,7 +23,7 @@ export default function Projects() {
         <h1 className="mt-[5rem] mb-6 text-4xl font-lobster-one text-purple-400">
           Projects
         </h1>
-        <div className="  grid place-content-center xl-s:grid-cols-2 md-s:flex-row hover:animation-spin  ">
+        <div className="  grid place-content-center xl-s:grid-cols-2 md-s:flex-row hover:animation-spin ">
           <div className=" p-3  shadow-lg mb-5 bg-white rounded ">
             <div className="card">
               {" "}
