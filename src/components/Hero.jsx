@@ -18,12 +18,12 @@ export default function Hero() {
   };
   return (
     <section
-      className="jumbotron  container  rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40"
+      className="jumbotron container   rounded-xl bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]  shadow-xl shadow-purple-500/40"
       id="home"
     >
-      <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4 mx-[6em]">
-          <h1 className="text-purple-500 inline-block font-lobster-one text-5xl mt-[2em] mb-2 align-top float-lg-left ">
+      <div className="row ">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4 float-xl-left">
+          <h1 className="text-purple-500 inline-block font-lobster-one text-5xl mt-[2em] mb-2 align-top float-md-left ">
             Hi, nice to meet you 👋
           </h1>
           <br />
@@ -31,12 +31,12 @@ export default function Hero() {
             I'm Isha Chauhan, a passionate developer based in Albuqerque, New
             Mexico 📍
           </h3>
-          <button className="float-lg-left mr-4 mt-4">
+          <button className="float-md-left mr-4 mt-4">
             <a href="https://github.com/izha135" target="_blank">
               <img className="w-12 h-auto" src={git} alt="git icon" />
             </a>
           </button>
-          <button className="float-lg-left mt-4">
+          <button className="float-md-left mt-4">
             <a
               href="https://www.linkedin.com/in/isha-chauhan-26a717155/"
               target="_blank"
@@ -48,19 +48,19 @@ export default function Hero() {
 
           {/* bruh fix me  */}
         </div>
-        <div className="col ">
+        <div className="container col d-flex align-items-center justify-content-center ">
           <img
-            className=" mx-auto xl-s:mt-[2em] d-block h-[29em] rounded-circle scale-1.7   md-s:-ml-[4rem] max-w-md sm-s:mx-5 py-4"
+            className=" d-block h-[25em] rounded-circle scale-1.7   max-w-md py-4 px-2"
             src={me2}
             alt="me"
           />
         </div>
-        <div class="w-100"></div>
-        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4  mx-[6em]">
-          <ul className="d-flex flex-row gap-4 list-inline text-wrap">
+        {/* <div class="w-100"></div> */}
+        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 ">
+          {/* <ul className="d-flex flex-row gap-4 list-inline  text-wrap">
             <li>
               <h1 className="font-poppins float-lg-left  float-sm-center  md-s:text-3xl sm-s:text-lg xl-s:text-xl">
-                Tech Stack
+                Skills
               </h1>
             </li>
 
@@ -99,14 +99,14 @@ export default function Hero() {
                 alt=""
               />
             </li>
-          </ul>
+          </ul> */}
           <a
             href={resume}
             target="_blank"
             download="Resume_Isha"
             rel="noreferrer"
           >
-            <button className=" mt-4  bg-purple-500 w-[7rem] xl-s:-ml-[34rem] xl-s:mt-6 md-s:-ml-[6rem] md-s:mt-5 hover:bg-purple-600 text-white font-bold py-2 mb-12 xl-s:px-4 sm-s:mt-10 rounded">
+            <button className=" mt-2 float-xl-left float-md-center bg-purple-500 w-[7rem]   hover:bg-purple-600 text-white font-bold py-2 mb-12  rounded">
               Resume
             </button>
           </a>

@@ -8,15 +8,48 @@ export default function Experience() {
       </h3>
       <div className="">
         <ol className="relative border-l border-gray-400 ml-14 dark:border-gray-700 text-left  ">
+        <li className="ml-12 mt-2">
+            <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+            Information Technology Administrator	
+
+            </h3>
+            <h5>District Attorney's Office </h5>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            August 2023 - Present
+            </time>
+            <p></p>
+            <ul>
+              <li className="list-disc">
+              Installing, configuring, and troubleshooting Windows/Linux operating systems and/or Virtual environments and related hardware in a heterogeneous environment
+              </li>
+              <li className="list-disc">
+              Resolving customer support issues and fulfilling requests through remote desktop and on-site field support
+
+              </li>
+              <li className="list-disc">
+              Proactively managing systems and servers utilizing Active Directory
+              </li>
+              <li className="list-disc">
+              Enforcing strict password policies, data integrity, and file system security for the desktop environment.
+
+              </li>
+              <li className="list-disc">Communicating highly technical information to both technical and nontechnical personnel
+</li>
+            </ul>
+
+            <hr className="mt-2" />
+          </li>
           <li className="ml-12">
             <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 
             <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-              IT Intern
+            Information Technology Intern
             </h3>
             <h5>State of New Mexico</h5>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              June 2023 - Present
+              June 2023 - August 2023
             </time>
             <ul className="">
               <li className="list-disc">

@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function NavBar() {
   return (
-    <nav class="navbar  navbar-expand-sm  shadow-sm fixed-top  bg-white mb-16 shadow-violet-500/40 ">
+    <nav class="navbar  navbar-expand-sm  shadow-sm sticky-top  bg-white mb-10 shadow-violet-500/40 ">
       <div class="container ">
         <span
           className="navbar-brand float-sm-center float-md-left text-purple-400 text-4xl "
