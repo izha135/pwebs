@@ -11,131 +11,110 @@ export default function Experience() {
         <li className="ml-12 mt-2">
             <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 class="text-xl font-semibold text-gray-900 ">
             Information Technology Administrator	
 
             </h3>
-            <h5>District Attorney's Office </h5>
+            <h5>New Mexico Administrative Office of the District Attorneys</h5>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 2023 - Present
+            August 2023 - March 2024
             </time>
             <p></p>
             <ul>
               <li className="list-disc">
-              Installing, configuring, and troubleshooting Windows/Linux operating systems and/or Virtual environments and related hardware in a heterogeneous environment
+              Successfully <b>created</b>  and <b>deployed</b>  powershell scripts to allow maintenance of 300+ devices
               </li>
               <li className="list-disc">
-              Resolving customer support issues and fulfilling requests through remote desktop and on-site field support
+               Proactively <b>managed</b>  systems and servers using <b>Active Directory</b>  to maintain user accounts, permissions, and group policies
+              </li>
+              <li className="list-disc">
+              <b> Resolved </b>  customer support issues and fulfilled requests through remote desktop and on-site field support
 
               </li>
-              <li className="list-disc">
-              Proactively managing systems and servers utilizing Active Directory
-              </li>
-              <li className="list-disc">
-              Enforcing strict password policies, data integrity, and file system security for the desktop environment.
+              
 
-              </li>
-              <li className="list-disc">Communicating highly technical information to both technical and nontechnical personnel
-</li>
             </ul>
 
-            <hr className="mt-2" />
+            <hr className="mt-4" />
           </li>
-          <li className="ml-12">
+          <li className="ml-12 mt-2">
             <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-            Information Technology Intern
+            <h3 class="text-xl font-semibold text-gray-900 ">
+            Software Developer Intern
             </h3>
-            <h5>State of New Mexico</h5>
+            <h5>New Mexico Corrections Department</h5>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               June 2023 - August 2023
             </time>
             <ul className="">
               <li className="list-disc">
-                Provide technical assistance to staff and customers on hardware
-                and software-related issues
+             <b>Customized</b>  the agency website by creating <b>WordPress</b>  themes and plugins to enhance user experience
               </li>
               <li className="list-disc">
-                Install, configure, and troubleshoot computer systems, hardware,
-                and software.
+             <b>Built</b>  single page applications by <b>fetching</b>  user data to <b>display</b>  information about the offender by searching the
+<b> database</b> for their name, age and offender number
               </li>
-              <li className="list-disc">
-                Follow established procedures and processes for computer
-                maintenance.
-              </li>
-              <li className="list-disc">Technologies used: WordPress</li>
+              <li className="list-disc">Technologies used: <b>WordPress, HTML, CSS, JavaScript, SQL, Rest API</b> </li>
             </ul>
 
-            <hr className="mt-3" />
+            <hr className="mt-4" />
           </li>
           <li className="ml-12 mt-2">
             <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 class="text-xl font-semibold text-gray-900 ">
               IT Technical Specialist
             </h3>
             <h5>University of New Mexico</h5>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Dec. 2022 - May 2023
+              December 2022 - May 2023
             </time>
             <ul>
               <li className="list-disc">
-                Plays an integral role as front-line staff in the IT support
-                operations of the UNM campus by responding to and
-                troubleshooting email, online, and in-person inquiries
+              Played an integral role as front-line staff in the <b>IT support operations</b>  of the UNM campus by responding to and
+troubleshooting email, online, and in-person inquiries
               </li>
               <li className="list-disc">
-                Utilizes a central ticketing system to communicate with
-                colleagues and resolve issues in conjunction with higher-level
-                IT resources both centrally and within their assigned department
+             <b>Utilized</b>  a central <b>ticketing</b>  system to communicate with colleagues and resolve issues in conjunction with
+higher-level IT resources both centrally and within their assigned department
               </li>
+             
               <li className="list-disc">
-                Troubleshooting software and hardware issues, overseeing
-                imaging, and triaging issues in our ticket tracking system,
-                Help.UNM (Cherwell)
-              </li>
-              <li className="list-disc">
-                Technologies/Environment: Windows, WSL, Linux, MacOS
+                Environment: <b>Windows, WSL, Linux, MacOS</b> 
               </li>
             </ul>
 
-            <hr className="mt-2" />
+            <hr className="mt-4" />
           </li>
           <li className="ml-12 mt-2">
             <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 class="text-xl font-semibold text-gray-900 ">
               Software Developer Intern
             </h3>
             <h5>
-              City of Albuquerque- Department of Family and Community Services
+            University of New Mexico
             </h5>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              August, 2021 - December, 2021
+              January 2022 - May 2022
             </time>
             <ul>
               <li className="list-disc">
                 {" "}
-                Created background database assets to be used by managers and
-                operations staff at a non-congregate shelter for families
-                seeking refuge.
+               <b>Designed</b>  and <b>implemented</b>  a user-friendly interface for UNM’s Anthropology Department portal, ensuring a
+positive experience for students, faculty and staff
+
               </li>
               <li className="list-disc">
-                Tasked with information handling, data integration, setting up
-                data pages and tables that allow simple user inputs on a
-                web-based platform ensuring user friendly web-based platform.
+             <b>Conducted</b>  a comprehensive analysis of <b>user feedback</b>  through surveys, usability testing, and direct communication
+channels which increased user traffic by 15%
               </li>
               <li className="list-disc">
-                Set up data relationships, reports and dashboards or internal
-                quality control as well as for evaluating and reporting results
-                to the public.
-              </li>
-              <li className="list-disc">
-                Technologies used: Caspio, PHP, MySQL and Excel
+                Technologies used: <b>Figma, HTML, CSS, React, MySQL, Node.js</b>
               </li>
             </ul>
-            <hr className="mt-3" />
+            <hr className="mt-4" />
           </li>
         </ol>
       </div>

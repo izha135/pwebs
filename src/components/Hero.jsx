@@ -28,8 +28,7 @@ export default function Hero() {
           </h1>
           <br />
           <h3 className="text-gray-700 lead inline-block align-top font-poppins  text-left text-2xl float-lg-left float-sm-center">
-            I'm Isha Chauhan, a passionate developer based in Albuqerque, New
-            Mexico 📍
+            I'm Isha Chauhan, a UNM alumni with a passion for web development, UI/UX and software development
           </h3>
           <button className="float-md-left mr-4 mt-4">
             <a href="https://github.com/izha135" target="_blank">
@@ -46,7 +45,7 @@ export default function Hero() {
             </a>
           </button>
 
-          {/* bruh fix me  */}
+          {/*  fix me  */}
         </div>
         <div className="container col d-flex align-items-center justify-content-center ">
           <img

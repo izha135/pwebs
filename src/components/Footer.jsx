@@ -8,8 +8,7 @@ export default function () {
           Get In Touch!
         </h2>
         <p class="lead text-center pb-3">
-          I'm currently looking for full-time Software Engineering or Machine
-          Learning opportunities! If you know of any positions available, if you
+          I'm currently looking for full-time entry level software development opportunities! If you know of any positions available, if you
           have any questions, or if you just want to say hi, please feel free to
           email me at,{" "}
           <a class="text-decoration-none" href="mailto:ishaac135@gmail.com">
@@ -23,12 +22,7 @@ export default function () {
           <span class="badge bg-violet-200">Isha Chauhan</span>
         </a>{" "}
         using <i class="fab fa-react"></i>
-        <p>
-          <small class="text-muted">
-            Project code is open source. Feel free to fork and make your own
-            version.
-          </small>
-        </p>
+       
       </div>
     </footer>
   );
