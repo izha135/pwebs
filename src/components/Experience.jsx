@@ -116,6 +116,28 @@ channels which increased user traffic by 15%
             </ul>
             <hr className="mt-4" />
           </li>
+          <li className="ml-12 mt-2">
+            <div class="absolute w-4 h-4 bg-violet-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+
+            <h3 class="text-xl font-semibold text-gray-900 ">
+            Data Science Intern
+            </h3>
+            <h5>City of Albuquerque</h5>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            August 2021 - December 2021
+            </time>
+            <ul className="">
+              <li className="list-disc">
+             <b>Created</b>  the background database assets for use by case managers and operations staff at a noncongregate shelter for families experiencing homelessness </li>
+              <li className="list-disc">
+              <b>Tasked</b> with information handling, data integration, setting up data pages and tables that enable simple user inputs on a web-based platform and improving the website as needed to keep it user friendly
+
+              </li>
+              <li className="list-disc">• Created data relationships, reports and dashboards for internal quality control as well as for evaluation and reporting results to the public </li>
+            </ul>
+
+            <hr className="mt-4" />
+          </li>
         </ol>
       </div>
     </section>

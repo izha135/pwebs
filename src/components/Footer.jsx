@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function () {
+export default function Footer() {
   return (
     <footer class="mt-auto py-5 text-center bg-gray-100 " id="contact">
       <div class="container">
@@ -17,7 +17,7 @@ export default function () {
           .
         </p>
         <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by{" "}
-        <a rel="noopener" href="" aria-label="My GitHub">
+        <a rel="noopener" href="#" aria-label="My GitHub">
           {" "}
           <span class="badge bg-violet-200">Isha Chauhan</span>
         </a>{" "}

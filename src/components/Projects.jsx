@@ -39,6 +39,7 @@ export default function Projects() {
                   <a
                     href="https://github.com/izha135/pwebs"
                     className="btn btn-outline-secondary mx-4"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     {" "}
@@ -48,7 +49,7 @@ export default function Projects() {
                 <hr className="my-2" />
                 <div className="pb-3">
                   Languages:
-                  <a className="link" href="" target="_blank">
+                  <a className="link" href="#" rel="noreferrer" target="_blank">
                     <span className="badge bg-light text-dark">
                       {" "}
                       JavaScript:75.7%, HTML:21.0%, CSS:3.3%{" "}
@@ -57,8 +58,9 @@ export default function Projects() {
                 </div>
                 <p class="card-text">
                   <a
-                    href=""
+                    href="#"
                     target=" _blank"
+                    rel="noreferrer"
                     class="text-dark text-decoration-none"
                   >
                     <span class="text-dark card-link mr-4">
@@ -90,6 +92,7 @@ export default function Projects() {
                     href="https://github.com/izha135/CS351-Project-5---Distributed-Auction"
                     className="btn btn-outline-secondary mx-4"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <i className="fab fa-github mx-1"></i>Repo
@@ -98,7 +101,8 @@ export default function Projects() {
                 <hr className="my-2" />
                 <div className="pb-3">
                   Languages:
-                  <a className="link" href="" target="_blank">
+                  <a className="link" href="#" target="_blank"
+                  rel="noreferrer">
                     <span className="badge bg-light text-dark">
                       {" "}
                       Java:100%{" "}
@@ -107,8 +111,9 @@ export default function Projects() {
                 </div>
                 <p class="card-text">
                   <a
-                    href=""
+                    href="#"
                     target=" _blank"
+                    rel="noreferrer"
                     class="text-dark text-decoration-none"
                   >
                     <span class="text-dark card-link mr-4">
@@ -141,6 +146,7 @@ export default function Projects() {
                     href="https://github.com/izha135/modulo-times-Tabl"
                     className="btn btn-outline-secondary mx-4"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <i className="fab fa-github mx-1"></i>Repo
@@ -149,7 +155,7 @@ export default function Projects() {
                 <hr className="my-2" />
                 <div className="pb-3">
                   Languages:
-                  <a className="link" href="" target="_blank">
+                  <a className="link" href="#" target="_blank" rel="noreferrer">
                     <span className="badge bg-light text-dark">
                       {" "}
                       Java:100%{" "}
@@ -158,8 +164,9 @@ export default function Projects() {
                 </div>
                 <p class="card-text">
                   <a
-                    href=""
+                    href="#"
                     target=" _blank"
+                    rel="noreferrer"
                     class="text-dark text-decoration-none"
                   >
                     <span class="text-dark card-link mr-4">
@@ -191,6 +198,7 @@ export default function Projects() {
                     href="https://github.com/izha135/Mazes"
                     className="btn btn-outline-secondary mx-4"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <i className="fab fa-github mx-1"></i>Repo
@@ -199,7 +207,7 @@ export default function Projects() {
                 <hr className="my-2" />
                 <div className="pb-3">
                   Languages:
-                  <a className="link" href="" target="_blank">
+                  <a className="link" href="#" target="_blank" rel="noreferrer">
                     <span className="badge bg-light text-dark">
                       {" "}
                       Java:100%{" "}
@@ -208,8 +216,9 @@ export default function Projects() {
                 </div>
                 <p class="card-text">
                   <a
-                    href=""
+                    href="#"
                     target=" _blank"
+                    rel="noreferrer"
                     class="text-dark text-decoration-none"
                   >
                     <span class="text-dark card-link mr-4">
