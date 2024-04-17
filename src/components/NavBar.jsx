@@ -9,7 +9,7 @@ function NavBar() {
           className="navbar-brand float-sm-center float-md-left text-purple-400 text-4xl "
           onClick={() => scroll.scrollToTop()}
         >
-          <a className="  font-lobster-one hover:cursor-pointer ">Isha.Dev</a>
+          <a className="font-lobster-one hover:cursor-pointer ">Isha.Dev</a>
         </span>
 
         <div className="d-none d-md-block d-lg-block d-xl-block">

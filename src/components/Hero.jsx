@@ -22,7 +22,7 @@ export default function Hero() {
       id="home"
     >
       <div className="row ">
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 py-4 float-xl-left">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3 py-4 float-xl-left">
           <h1 className="text-purple-500 inline-block font-lobster-one text-5xl mt-[2em] mb-2 align-top float-md-left ">
             Hi, nice to meet you 👋
           </h1>
@@ -55,7 +55,7 @@ export default function Hero() {
           />
         </div>
         {/* <div class="w-100"></div> */}
-        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-5 ">
+        <div className=" col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3 ">
           {/* <ul className="d-flex flex-row gap-4 list-inline  text-wrap">
             <li>
               <h1 className="font-poppins float-lg-left  float-sm-center  md-s:text-3xl sm-s:text-lg xl-s:text-xl">

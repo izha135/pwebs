@@ -133,7 +133,7 @@ channels which increased user traffic by 15%
               <b>Tasked</b> with information handling, data integration, setting up data pages and tables that enable simple user inputs on a web-based platform and improving the website as needed to keep it user friendly
 
               </li>
-              <li className="list-disc">• Created data relationships, reports and dashboards for internal quality control as well as for evaluation and reporting results to the public </li>
+              <li className="list-disc"><b>Created</b> data relationships, reports and dashboards for internal quality control as well as for evaluation and reporting results to the public </li>
             </ul>
 
             <hr className="mt-4" />
